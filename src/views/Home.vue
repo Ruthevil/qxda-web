@@ -27,6 +27,7 @@
     },
     mounted () {
       console.log(process.env.VUE_APP_NAME)
+      console.log(_)
     }
   }
 </script>
