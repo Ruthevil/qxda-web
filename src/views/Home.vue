@@ -2,6 +2,7 @@
   <div class="home">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <bidding-card-person :user="user" :person="person"></bidding-card-person>
+    <v-calendar is-double-paned></v-calendar>
   </div>
 </template>
 

@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/animation">Animation</router-link>
+      <router-link to="/animation">Animation</router-link> |
+      <router-link to="/upload">elementui excel上传</router-link> |
+      <router-link to="/img">elementui img上传</router-link>
     </div>
     <router-view/>
   </div>

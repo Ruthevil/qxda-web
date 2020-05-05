@@ -1,15 +1,20 @@
 import Vue from 'vue'
 import App from './App.vue'
+import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import store from './store'
+import VCalendar from "v-calendar"
 
 import components from 'bidding-pack-components'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.use(ElementUI);
 Vue.use(components);
+Vue.use(VCalendar);
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+    router,
+    store,
+    render: h => h(App)
+}).$mount('#app');
