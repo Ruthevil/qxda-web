@@ -2,19 +2,19 @@
     <div class="upload-excel">
         这里用来测试elementUI的upload上传文件，并获取文件流和json格式的header和body数据
         <el-upload
-                class="file-upload"
-                ref="fileUpload"
-                action=""
-                :http-request="handleRequest"
-                :on-remove="handleRemove"
-                :on-exceed="handleExceed"
-                :before-remove="handleBeforeRemove"
-                :on-change="handleChange"
-                :file-list="fileList"
-                :multiple="false"
-                :auto-upload="false"
-                accept=".xls,.xlsx"
-                :limit="1">
+            class="file-upload"
+            ref="fileUpload"
+            action=""
+            :http-request="handleRequest"
+            :on-remove="handleRemove"
+            :on-exceed="handleExceed"
+            :before-remove="handleBeforeRemove"
+            :on-change="handleChange"
+            :file-list="fileList"
+            :multiple="false"
+            :auto-upload="false"
+            accept=".xls,.xlsx"
+            :limit="1">
             <el-button size="small" type="primary">点击上传</el-button>
         </el-upload>
         <el-button type="primary" size="mini" @click="sendFile">发送文件</el-button>

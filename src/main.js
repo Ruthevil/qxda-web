@@ -6,11 +6,9 @@ import router from './router'
 import store from './store'
 import VCalendar from "v-calendar"
 
-import components from 'bidding-pack-components'
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
-Vue.use(components);
 Vue.use(VCalendar);
 
 new Vue({

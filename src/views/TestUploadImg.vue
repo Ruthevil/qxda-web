@@ -76,8 +76,10 @@
     .upload-img
         width 100%
         height 100%
-    >>>.el-upload__input
+
+    >>> .el-upload__input
         display none
+
     .avatar-uploader .el-upload {
         border: 1px dashed #d9d9d9;
         border-radius: 6px;
