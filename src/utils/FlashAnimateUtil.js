@@ -11,7 +11,7 @@ import ColorUtil from "./ColorUtil"
  * @animateFun{string} 动画执行函数，可选值，默认steps(20, start)
  * @isInfinite{string} 是否无限循环动画，可选值，默认infinite
  */
-class AnimateUtil {
+class FlashAnimateUtil {
     constructor(containerName, frameNumber, animateKey, animateValueList, name = "run",
                 times = "3s", animateFun = "steps(20, start)", isInfinite = "infinite") {
         this.containerName = containerName;
@@ -87,4 +87,4 @@ class AnimateUtil {
     }
 }
 
-export default AnimateUtil
+export default FlashAnimateUtil
