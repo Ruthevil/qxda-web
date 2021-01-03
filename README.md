@@ -1,4 +1,4 @@
-# qxda-web
+# demo
 
 ## Project setup
 ```

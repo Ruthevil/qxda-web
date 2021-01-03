@@ -5,6 +5,8 @@ import TestUploadExcel from "@/views/TestUploadExcel.vue"
 import TestUploadImg from "@/views/TestUploadImg.vue"
 import TestElDialog from "@/views/TestElDialog.vue"
 import TestWaterMarker from "@/views/TestWaterMarker.vue"
+import TestEchartsTree from "@/views/TestEchartsTree.vue"
+import TestG6 from "@/views/TestG6.vue"
 
 Vue.use(VueRouter)
 
@@ -41,6 +43,16 @@ const routes = [
         path: "/waterMarker",
         name: "waterMarker",
         component: TestWaterMarker
+    },
+    {
+        path: "/echartsTree",
+        name: "echartsTree",
+        component: TestEchartsTree
+    },
+    {
+        path: "/g6",
+        name: "g6",
+        component: TestG6
     }
 ]
 

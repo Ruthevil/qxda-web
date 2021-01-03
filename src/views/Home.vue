@@ -12,7 +12,7 @@
         name: 'home',
         data() {
             return {
-                user: 'qxda-web-system',
+                user: 'demo-system',
                 person: {
                     name: '李小思',
                     age: 18,
